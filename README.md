@@ -1,4 +1,4 @@
-# Portfolio
+# My Website
 This is my personal website. Feel free to check it out :)
 
 # Stack
