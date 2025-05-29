@@ -3,7 +3,7 @@ This is my personal website. Feel free to check it out :)
 
 # Stack
 - React
-- TypeScript/JavaScript
+- TypeScript
 
 # Check it out
 1. `npm` or `yarn` or `bun`, etc.
