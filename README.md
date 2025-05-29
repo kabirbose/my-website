@@ -1,4 +1,4 @@
-# My Website
+# My website
 This is my personal website. Feel free to check it out :)
 
 # Stack
