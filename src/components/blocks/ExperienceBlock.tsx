@@ -22,7 +22,7 @@ export default function ExperienceBlock({
         <Image src={src} width={30} height={30} alt={alt} />
         <div>
           <h1>{company}</h1>
-          <p>{role}</p>
+          <p className="text-zinc-300">{role}</p>
         </div>
       </div>
       {href ? <Link href={href}>{">"}</Link> : ""}
