@@ -1,5 +1,6 @@
 import AboutMeSec from "@/components/sections/AboutMeSec";
 import ExperienceSec from "@/components/sections/ExperienceSec";
+import ProjectsSec from "@/components/sections/ProjectsSec";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <AboutMeSec />
         <br />
         <ExperienceSec />
+        <br />
+        <ProjectsSec />
       </div>
     </div>
   );

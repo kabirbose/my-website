@@ -4,25 +4,17 @@ import Link from "next/link";
 interface Props {
   src: string;
   alt: string;
-  company: string;
-  role: string;
+  project: string;
   href?: string;
 }
 
-export default function ExperienceBlock({
-  src,
-  alt,
-  company,
-  role,
-  href,
-}: Props) {
+export default function ProjectsBlock({ src, alt, project, href }: Props) {
   return (
     <div className="flex justify-between items-center w-[100%] py-2">
       <div className="flex justify-center items-center gap-3">
         <Image src={src} width={30} height={30} alt={alt} />
         <div>
-          <h1>{company}</h1>
-          <p>{role}</p>
+          <h1>{project}</h1>
         </div>
       </div>
       {href ? <Link href={href}>{">"}</Link> : ""}

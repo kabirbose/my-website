@@ -4,7 +4,13 @@ export default function ExperienceSec() {
   return (
     <div>
       <h1 className="font-semibold text-2xl">Internships</h1>
-      <ExperienceBlock src={"/cbc-logo.png"} alt={"CBC Logo"} />
+      <ExperienceBlock
+        src={"/cbc-logo.png"}
+        alt={"CBC Logo"}
+        company="CBC News"
+        role="Network Engineer"
+        href="/"
+      />
     </div>
   );
 }
