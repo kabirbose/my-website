@@ -3,8 +3,8 @@ import ExperienceSec from "@/components/sections/ExperienceSec";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center flex-col">
-      <div className="w-[50rem]">
+    <div className="flex justify-center items-center flex-col p-10">
+      <div>
         <AboutMeSec />
         <br />
         <ExperienceSec />
