@@ -17,7 +17,13 @@ export default function ProjectsBlock({ src, alt, project, href }: Props) {
           <h1>{project}</h1>
         </div>
       </div>
-      {href ? <Link href={href}>{">"}</Link> : ""}
+      {href ? (
+        <Link href={href} className="text-zinc-300">
+          {">"}
+        </Link>
+      ) : (
+        ""
+      )}
     </div>
   );
 }

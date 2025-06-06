@@ -28,6 +28,18 @@ export default function ProjectsSec() {
         alt="Arch Linux Logo"
         href="/"
       />
+      <ProjectsBlock
+        project="CCNA Mega Lab"
+        src="/cisco-logo.png"
+        alt="Cisco Logo"
+        href="/"
+      />
+      <ProjectsBlock
+        project="DNA Center Automation"
+        src="/dna-center-logo.png"
+        alt="DNA Center Logo"
+        href="/"
+      />
     </div>
   );
 }

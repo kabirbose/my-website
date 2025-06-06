@@ -1,6 +1,15 @@
+import Image from "next/image";
+
 export default function AboutMeSec() {
   return (
     <div className="flex flex-col gap-3 justify-start items-start">
+      <Image
+        src="/puggy-and-me.png"
+        alt="Puggy and Me"
+        height={200}
+        width={200}
+        className="w-[100%]"
+      />
       <div>
         <h1 className="text-4xl font-semibold">Kabir Bose</h1>
         <h2>Networking & IT @ Ontario Tech</h2>

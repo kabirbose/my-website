@@ -25,7 +25,13 @@ export default function ExperienceBlock({
           <p className="text-zinc-300">{role}</p>
         </div>
       </div>
-      {href ? <Link href={href}>{">"}</Link> : ""}
+      {href ? (
+        <Link href={href} className="text-zinc-300">
+          {">"}
+        </Link>
+      ) : (
+        ""
+      )}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import AboutMeSec from "@/components/sections/AboutMeSec";
 import ExperienceSec from "@/components/sections/ExperienceSec";
 import ProjectsSec from "@/components/sections/ProjectsSec";
+import SocialSec from "@/components/sections/SocialSec";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         <ExperienceSec />
         <br />
         <ProjectsSec />
+        <br />
+        <SocialSec />
       </div>
     </div>
   );
