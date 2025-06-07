@@ -18,7 +18,7 @@ export default function SocialSec() {
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <motion.div
-        className="flex justify-between items-start gap-5 border-[1px] border-zinc-800 p-2 text-zinc-300"
+        className="flex justify-between items-start gap-5 border-[1px] border-zinc-800 p-2 text-zinc-300 rounded-lg"
         variants={{
           hidden: {},
           visible: {
