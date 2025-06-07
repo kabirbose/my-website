@@ -8,7 +8,7 @@ export default function AboutMeSec() {
         alt="Puggy and Me"
         height={200}
         width={200}
-        className="w-[100%]"
+        className="w-[100%] md:w-[20rem]"
       />
       <div>
         <h1 className="text-4xl font-semibold">Kabir Bose</h1>
