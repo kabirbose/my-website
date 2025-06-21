@@ -5,7 +5,7 @@ import SocialSec from "@/components/sections/SocialSec";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center flex-col p-10">
+    <div className="flex justify-center items-center flex-col p-10 md:px-32 md:py-20">
       <div>
         <AboutMeSec />
         <br />
