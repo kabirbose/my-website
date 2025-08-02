@@ -22,37 +22,31 @@ export default function ProjectsSec() {
       project: "Packet Tracer Labs",
       src: "/packet-tracer.webp",
       alt: "Cisco Packet Tracer",
-      href: "/",
+      href: "/details/packetTracerLabs",
     },
     {
       project: "AVD Automation-Day 1",
       src: "/arista-logo.png",
       alt: "Arista Logo",
-      href: "/",
+      href: "/details/avdAutomationDay1",
     },
     {
       project: "AVD Automation-Day 2",
       src: "/arista-logo.png",
       alt: "Arista Logo",
-      href: "/",
+      href: "/details/avdAutomationDay2",
     },
     {
       project: "Arch Linux Setup",
       src: "/arch-linux-logo.png",
       alt: "Arch Linux Logo",
-      href: "/",
-    },
-    {
-      project: "CCNA Mega Lab",
-      src: "/cisco-logo.png",
-      alt: "Cisco Logo",
-      href: "/",
+      href: "/details/archLinuxSetup",
     },
     {
       project: "DNA Center Automation",
       src: "/dna-center-logo.png",
       alt: "DNA Center Logo",
-      href: "/",
+      href: "/details/dnaCenterAutomation",
     },
   ];
 

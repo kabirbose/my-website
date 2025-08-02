@@ -4,6 +4,23 @@ import { motion } from "framer-motion";
 import ExperienceBlock from "../blocks/ExperienceBlock";
 
 export default function ExperienceSec() {
+  const experiences = [
+    {
+      src: "/cbc-logo.png",
+      alt: "CBC Logo",
+      company: "CBC News",
+      role: "Network Engineering Intern",
+      href: "/details/cbc",
+    },
+    {
+      src: "/otu-logo.webp",
+      alt: "Ontario Tech Logo",
+      company: "Ontario Tech University",
+      role: "Bachelor of Information Technology",
+      href: "/details/otu",
+    },
+  ];
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -34,33 +51,22 @@ export default function ExperienceSec() {
         animate="visible"
         className="flex flex-col gap-3"
       >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, ease: "easeOut" }}
-        >
-          <ExperienceBlock
-            src={"/cbc-logo.png"}
-            alt={"CBC Logo"}
-            company="CBC News"
-            role="Network Engineer"
-            href="/"
-          />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
-        >
-          <ExperienceBlock
-            src={"/otu-logo.webp"}
-            alt={"Ontario Tech Logo"}
-            company="Ontario Tech"
-            role="Bachelor of IT"
-            href="/"
-          />
-        </motion.div>
+        {experiences.map((exp, i) => (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
+            key={exp.role}
+          >
+            <ExperienceBlock
+              src={exp.src}
+              alt={exp.alt}
+              company={exp.company}
+              role={exp.role}
+              href={exp.href}
+            />
+          </motion.div>
+        ))}
       </motion.div>
     </motion.div>
   );

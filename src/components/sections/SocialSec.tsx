@@ -5,9 +5,12 @@ import { motion } from "framer-motion";
 
 export default function SocialSec() {
   const socials = [
-    { name: "GitHub", href: "/" },
-    { name: "LinkedIn", href: "/" },
-    { name: "Resume", href: "/" },
+    { name: "GitHub", href: "https://github.com/KabirBose" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/kabirbose/" },
+    {
+      name: "Resume",
+      href: "https://drive.google.com/file/d/1WuhN1J-xJjqBZWzf7YVKXoYRwL7bDZbk/view?usp=sharing",
+    },
   ];
 
   return (
@@ -39,7 +42,9 @@ export default function SocialSec() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
           >
-            <Link href={item.href}>{item.name}</Link>
+            <Link href={item.href} target="_blank">
+              {item.name}
+            </Link>
           </motion.div>
         ))}
       </motion.div>

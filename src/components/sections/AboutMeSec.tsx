@@ -36,7 +36,7 @@ export default function AboutMeSec() {
         >
           <h1 className="text-4xl font-semibold">Kabir Bose</h1>
           <h2 className="text-lg text-zinc-400">
-            Networking & IT @ Ontario Tech
+            Networking & IT Security @ Ontario Tech University
           </h2>
         </motion.div>
 
