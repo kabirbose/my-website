@@ -51,7 +51,7 @@ export default function ExperienceSec() {
         animate="visible"
         className="flex flex-col gap-3"
       >
-        {experiences.map((exp, i) => (
+        {experiences.map((exp) => (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}

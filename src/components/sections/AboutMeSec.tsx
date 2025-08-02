@@ -60,7 +60,8 @@ export default function AboutMeSec() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, ease: "easeOut" }}
           >
-            Hi! I'm a university student specializing in computer networking.
+            Hi! I&apos;m a university student specializing in computer
+            networking.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
